@@ -34,7 +34,7 @@ namespace C__Shop_2
         public string GetItemString()
         {
             string rapprString = "Nome prodotto: " + this.name + "\n";
-            rapprString += "\t Categorie prodotto: \n";
+            rapprString += "\t Categoria prodotto: \n";
             foreach (Category categoriaScansionata in categories)
             {
                 rapprString += "\t - " + categoriaScansionata.GetName() + "\n";
