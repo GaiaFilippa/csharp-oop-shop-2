@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace C__Shop_2
 {
-    internal class itemShop
+    public class itemShop 
     {
-        private string name;
-        private List<Category> categories;
+        protected private string name;
+        protected private List<Category> categories;
+        
+
         // COSTRUTTORE
 
         public itemShop(string name)
@@ -17,6 +19,8 @@ namespace C__Shop_2
             this.name = name;
             this.categories = new List<Category>();
         }
+
+       
 
         // GETTERS 
 

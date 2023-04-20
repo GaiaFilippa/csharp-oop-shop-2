@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C__Shop_2
 {
-    internal class Category
+    public class Category
     {
         private string name;
         private string description;

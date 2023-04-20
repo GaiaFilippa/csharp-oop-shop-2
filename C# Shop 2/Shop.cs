@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C__Shop_2
 {
-    internal class Shop
+    public class Shop
     {
         // ATTRIBUTI 
 
