@@ -52,6 +52,7 @@ namespace C__Shop_2
             string rapprString = "La categoria è: " + this.name + "\n";
             rapprString += this.description + "\n";
             rapprString += "Codice prodotto: " + this.code + "\n";
+
             return rapprString;
         }
     }

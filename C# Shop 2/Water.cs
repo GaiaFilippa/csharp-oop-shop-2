@@ -14,7 +14,7 @@ namespace C__Shop_2
         public string brand;
 
         // COSTRUTTORE
-        public Water(string name, float  liters, float ph, string source, string brand) : base(name)
+        public Water(string name,  float  liters, float ph, string source, string brand) : base(name)
         {
             this.liters = liters;
             this.ph = ph;
@@ -47,14 +47,18 @@ namespace C__Shop_2
 
         // METODI
 
-        public override void AddValues()
+        public override string GetItemString()
         {
-            base.AddValues();
-            string Values = "Tot litri: " + this.liters + "l";
-            Values += "Livello di acidità dell'acqua: " + this.ph;
-            Values += "Sorgente: " + this.source;
-            Values += "Marca: " + this.brand;
-            
+            string itemString = base.GetItemString();
+
+
+            itemString += "\t Tot litri: " + this.liters + "l \n";
+            itemString += "\t Livello di acidità dell'acqua: " + this.ph + "\n";
+            itemString += "\t Sorgente: " + this.source + "\n";
+            itemString += "\t Marca: " + this.brand + "\n";
+
+            return itemString;
+      
         }
 
     }

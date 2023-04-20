@@ -35,7 +35,7 @@ namespace C__Shop_2
         }
 
 
-        public string GetItemString()
+        public virtual string GetItemString()
         {
             string rapprString = "Nome prodotto: " + this.name + "\n";
             rapprString += "\t Categoria prodotto: \n";
@@ -46,11 +46,6 @@ namespace C__Shop_2
 
             return rapprString;
 
-        }
-
-        public virtual void AddValues()
-        {
-            Console.WriteLine("I valori sono: " + this.name);
         }
 
         public void addCaetogy(Category newCategory)

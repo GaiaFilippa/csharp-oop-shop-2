@@ -16,11 +16,12 @@ Category Frutta = new Category("Frutta", "Sacchetto con 5 pezzi di frutta");
 bottigliaAcqua.addCaetogy(Bevande);
 fruttaAPezzi.addCaetogy(Frutta);
 
-negozio.addItem(bottigliaAcqua);
+
 negozio.addItem(fruttaAPezzi);
 
 Water valori = new Water("Bottiglia d'acqua", 1.5f, 6.9f, "Vinadio", "Sant'Anna");
+negozio.addItem(valori);   
 
-bottigliaAcqua.AddValues(valori);
+  
 
 Console.WriteLine(negozio.InfoShop());
