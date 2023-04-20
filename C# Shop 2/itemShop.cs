@@ -20,7 +20,7 @@ namespace C__Shop_2
             this.categories = new List<Category>();
         }
 
-       
+
 
         // GETTERS 
 
@@ -46,6 +46,11 @@ namespace C__Shop_2
 
             return rapprString;
 
+        }
+
+        public virtual void AddValues()
+        {
+            Console.WriteLine("I valori sono: " + this.name);
         }
 
         public void addCaetogy(Category newCategory)

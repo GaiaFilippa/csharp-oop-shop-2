@@ -72,7 +72,7 @@ namespace C__Shop_2
 
         public void AddListItems(List<itemShop> newItems)
         {
-            //itemShop = (List<itemShop>)itemShop.Concat(newItems);
+            
 
             foreach (itemShop itemScansionato in newItems)
             {

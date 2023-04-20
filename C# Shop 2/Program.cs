@@ -19,5 +19,8 @@ fruttaAPezzi.addCaetogy(Frutta);
 negozio.addItem(bottigliaAcqua);
 negozio.addItem(fruttaAPezzi);
 
+Water valori = new Water("Bottiglia d'acqua", 1.5f, 6.9f, "Vinadio", "Sant'Anna");
+
+bottigliaAcqua.AddValues(valori);
 
 Console.WriteLine(negozio.InfoShop());
